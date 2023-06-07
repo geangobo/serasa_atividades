@@ -4,112 +4,91 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aula6githubtest
+namespace aula6Exercicios
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ////###########Etapa 1:
-            //Mensagem de apresentação
-            System.Console.WriteLine("Seja bem-vindo(a) a TripCode, empresa de viagens e turismo tecnológico\n\n");
+            //Aula-06: Exercícios
 
-            //Variáveis
-            string nome_cliente1;
-            string nome_cliente2;
-            string bairro;
-            string endereco;
-            string cidade;
-            string estado;
-            float viagem_ano1;
-            float viagem_ano2;
-            float viagem_total;
+            //AT1:
+            //Declaração de variáveis
+            /*
+            int num;
 
+            Console.WriteLine("Digite um número de 1 a 10");
+            num = int.Parse(Console.ReadLine());
 
-
-            //Cadastro do cliente - nome e sobrenome
-            System.Console.WriteLine("Digite o seu primeiro nome: ");
-            nome_cliente1 = Console.ReadLine();
-
-            System.Console.WriteLine("\nDigite o seu sobrenome: ");
-            nome_cliente2 = Console.ReadLine();
-
-            System.Console.WriteLine($"\n\nOlá Sr(a). {nome_cliente1} {nome_cliente2} vamos continuar o seu cadastro...");
-
-            //Informções do usuário
-            System.Console.WriteLine("\nDigite o nome do seu Endereço: ");
-            endereco = Console.ReadLine();
-
-            System.Console.WriteLine("\nDigite o nome do seu Bairro: ");
-            bairro = Console.ReadLine();
-
-            System.Console.WriteLine("\nDigite o nome da sua Cidade: ");
-            cidade = Console.ReadLine();
-
-            System.Console.WriteLine("\nDigite o nome do seu Estado: ");
-            estado = Console.ReadLine();
-
-            //Mensagens de informação do cliente: 
-            System.Console.WriteLine($"\n--O Sr(a). {nome_cliente2} mora na cidade de {cidade}, Estado de {estado}, no endereço {endereco}, localizado no bairro {bairro}");
-
-
-            //Dados de viagens: 
-            System.Console.WriteLine($"\n--Quantas viagens você {nome_cliente1} fez ano passado ? ");
-            viagem_ano1 = float.Parse(Console.ReadLine());
-
-            System.Console.WriteLine($"Quantas viagens você {nome_cliente1} planejou fazer nesse ano ? ");
-            viagem_ano2 = float.Parse(Console.ReadLine());
-
-            //Operações matemáticas
-            viagem_total = viagem_ano1 + viagem_ano2;
-            System.Console.WriteLine($"\nOlá, cliente {nome_cliente1}, seu total de viagens feitas com a TripCode é {viagem_total}");
-
-            //Viagens faltantes
-            System.Console.WriteLine($"\nFalta apenas {10 - viagem_total} para completar 10 viagens ao todo! ");
-
-            //Média de viagens
-            System.Console.WriteLine($"\nSua média de viagens em relação ao ano passado é {(viagem_ano1 + viagem_ano2) / 2}");
-
-            //intervalo em meses da cada viagem
-            System.Console.WriteLine($"\nCom intervalo de {12 / viagem_ano2} meses a cada viagem nesse ano");
-
-            //Agradecimentos
-            System.Console.WriteLine($"\n---Obrigado {nome_cliente1} {nome_cliente2}, o seu cadastro foi realizado com sucesso! ");
-
-            //Etapa 1 - Concluído.
-
-            //###########Etapa 2: Essa etapa envolve o uso de condições para tornar o seu código mais completo.
-            System.Console.WriteLine("\nDigite o seu cupom de desconto: ");
-            string cupom;
-            cupom = Console.ReadLine();
-
-            //Condicionais do cumpom
-            if (cupom == "Conradito10")
+            if (num <= 10)
             {
-                System.Console.WriteLine("\nParabens, voce recebeu 10% de desconto na sua proxima viagem!\n ");
+                Console.WriteLine($"Numero {num} válido!");
+                return;
+            }else{
+                Console.WriteLine($"Número {num} não válido! ");
+            }
+            */
+            //AT2: Login e cadastro de usuários. 
+            Console.WriteLine("\n\nBem-vindo ao Conradito's Bank\nOpções:\n1 - Cadastrar\n2 - Login");
+            string escolha;
+            string user;
+            int senha;
+
+
+             escolha = Console.ReadLine();
+
+            if (escolha == "1")
+            {
+                Console.WriteLine("Bem-vindo ao cadastro:\nDigite o nome de usuário: ");
+                user = Console.ReadLine();
+                Console.WriteLine($"Usuário {user} crie uma senha: ");
+                senha = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Usuário {user} cadastrado com sucesso!\n ");
+                
+
+
+
+
             }
             else
             {
-                System.Console.WriteLine("Esse cupom não existe! ");
+                Console.WriteLine("---Login de usuário\nPara continuar, digite o usuário: ");
+                user = Console.ReadLine();
+                if (user == "geangobo")
+                {
+                    Console.WriteLine("Digite a sua senha: ");
+                    senha = int.Parse(Console.ReadLine());
+                    if (senha == 1234)
+                    {
+                        Console.WriteLine($"\nBem-vindo {user} ao Conradito's Bank!\nVocê está logado!\n\n");
+                        Console.ReadKey();
+                    }
+                }
             }
 
-            //e-mail
-            System.Console.WriteLine("Você gostaria de promoções no seu E-mail ? ");
-            string email;
-            email = Console.ReadLine();
-
-            //Condicional e-mail
-            if (email == "Sim")
+            Console.WriteLine("---Login de usuário\nPara continuar, digite o usuário: ");
+            user = Console.ReadLine();
+            if (escolha == "1")
             {
-                System.Console.WriteLine($"\nObrigado {nome_cliente1} por se registrar, você receberá novos e-mails em breve.");
+                if(escolha == "1")
+                {
+                    Console.WriteLine("Digite a sua senha: ");
+                    senha = int.Parse(Console.ReadLine());
+                    Console.WriteLine($"\nBem-vindo {user} ao Conradito's Bank!\nVocê está logado!\n\n\n");
+                }
+                    
             }
             else
             {
-                System.Console.WriteLine("\nOk! Você não receberá e-mails de promoções.");
+                Console.WriteLine("Você errou a sua senha! ");
             }
 
-            System.Console.WriteLine("\n--Obrigado, e volte sempre! ");
 
+
+
+
+            //loop no código
+            Main(null);
             //Travando terminal
             Console.ReadKey();
         }
