@@ -88,8 +88,8 @@ namespace Aula6Atividade
 
             System.Console.WriteLine($"Parabéns usuário {user}, passagem comprada com sucesso para o dia\n {dia} de {mes}, no período {periodo}. Boa viagem!");
 
-            //Etapa 1 completa!
-            
+            //Etapa 1 - completa!
+            //Etapa 2 - acabei fazendo na etapa 1 sem querer para deixar o código melhor, logo, completa!
     
 
 
