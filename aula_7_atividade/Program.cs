@@ -74,7 +74,7 @@ namespace MaquinaDeCafe
                 //Condicional do saldo em conta.
                 if (saldo > 0)
                 {
-                    Console.WriteLine($"\nSeu saldo atual é de R$ {saldo:F2}");
+                    Console.WriteLine($"\nSeu saldo atual é de R$ {saldo:F2}"); //Em que F significa float e 2 o número de casas decimais.
                 }else{
                     System.Console.WriteLine("Seu saldo foi esgotado, coloque mais dinheiro na máquina!\n\n ");
                     
