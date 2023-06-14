@@ -1,0 +1,7 @@
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\bin\Debug\Aula_8_listas_e_repeticao.exe.config
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\bin\Debug\Aula_8_listas_e_repeticao.exe
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\bin\Debug\Aula_8_listas_e_repeticao.pdb
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\obj\Debug\Aula_8_listas_e_repeticao.csproj.AssemblyReference.cache
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\obj\Debug\Aula_8_listas_e_repeticao.csproj.CoreCompileInputs.cache
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\obj\Debug\Aula_8_listas_e_repeticao.exe
+C:\Users\gean.gcruz\source\repos\Aula_8_listas_e_repeticao\Aula_8_listas_e_repeticao\obj\Debug\Aula_8_listas_e_repeticao.pdb
